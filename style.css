@@ -53,14 +53,14 @@ body.page-template-template-full-width #content #primary .entry-header {
  * - reduce width of sidebar to obtain a margin between
  *   content and sidebar (default: 36%)
  */
-@media screen and (min-width: 48em) {
+/*@media screen and (min-width: 48em) {
 	body:not(.has-sidebar):not(.page-one-column) .page-header,
 	body.has-sidebar.error404 #primary .page-header,
 	body.page-two-column:not(.archive) #primary .entry-header,
 	body.page-two-column.archive:not(.has-sidebar) #primary .page-header {
 		float: right;
 		width: 33%;
-}
+}*/
 
 /*
  * === Content for pages ===
@@ -71,7 +71,7 @@ body.page-template-template-full-width #content #primary .entry-header {
  * - move content to the left (default: right)
  * - widen actual content to 64% (default: 58%)
  */
-blog:not(.has-sidebar) #primary article,
+/*blog:not(.has-sidebar) #primary article,
 	.archive:not(.page-one-column):not(.has-sidebar) #primary article,
 	.search:not(.has-sidebar) #primary article,
 	.error404:not(.has-sidebar) #primary .page-content,
@@ -81,14 +81,14 @@ blog:not(.has-sidebar) #primary article,
 		float: left;
 		width: 64%;
 	}
-}
+}*/
 
 /*
  * Reduce gap above the content sections for pages other than the start page.
  */
-#content {
+/*#content {
 	padding-top: 30px;
-}
+}*/
 
 /*
  * don't UPPERCASE title
@@ -121,10 +121,10 @@ body.has-header-video .site-description {
  * Don't show the author, because in many cases the text has been authored
  * by different persons anyway
  */
-.single .byline,
+/*.single .byline,
 .group-blog .byline {
 	display: none;
-}
+}*/
 
 /*
  * Widget TITLE within the sidebar: define font and box color and details
@@ -132,99 +132,99 @@ body.has-header-video .site-description {
  * Text color is "Wordpress Blue" like defined in
  * https://make.wordpress.org/design/handbook/design-guide/foundations/colors/
  */
-h2.widget-title {
+/*h2.widget-title {
 	color: #0073aa;
-}
+}*/
 
 /* draw a box filled with a real light grey color */
-.widget-title {
+/*.widget-title {
 	background: #ececec;
 	margin-bottom: 0px !important;
 	padding: 12px !important;
-}
+}*/
 
 /*
  * Modify link design within a widget in the sidebar
  */
-.widget li a, 
+/*.widget li a, 
 .widget a {
 	box-shadow: none !important;
 	color: navy;
-}
+}*/
 
 /* draw lightgrey box and text color firebrick on hover */
-.widget li a:hover,
+/*.widget li a:hover,
 .widget a:hover {
 	box-shadow: none !important;
 	background: #ececec;
 	color: firebrick !important;
-}
+}*/
 
-.single-post .entry-title,
+/*.single-post .entry-title,
 .page .entry-title {
 	color: firebrick !important;
-}
+}*/
 
-h2.entry-title a:hover {
+/*h2.entry-title a:hover {
 	box-shadow: none;
 	background: #ececec;
-}
+}*/
 
 /*
  * Modify link color in normal content also
  */
-.entry-content a {
+/*.entry-content a {
 	border: none;
 	box-shadow: none;
 	-webkit-box-shadow: inset 0 -1px 0 currentColor;
 	box-shadow: inset 0 -1px 0 currentColor;
-}
-.entry-content a:hover {
+}*/
+/*.entry-content a:hover {
 	background: #ececec;
 	color: firebrick !important;
 	-webkit-box-shadow: inset 0 -1px 0 currentColor;
 	box-shadow: inset 0 -1px 0 currentColor;
-}
+}*/
 
 /* Color of meta data like post date and author */
-.entry-meta * {
+/*.entry-meta * {
 	color: #0073aa;
-}
+}*/
 
 /* header 1 color */
-h1 {
+/*h1 {
 	color: firebrick !important;
-}
+}*/
 
 /* title color */
-.entry-title, .entry-title a {
+/*.entry-title, .entry-title a {
 	color: firebrick !important;
-}
+}*/
 
 /*
  * Reduce height of header-image
  */
-.twentyseventeen-front-page.has-header-image .custom-header-media, .twentyseventeen-front-page.has-header-video .custom-header-media, .home.blog.has-header-image .custom-header-media, .home.blog.has-header-video .custom-header-media {
+/*.twentyseventeen-front-page.has-header-image .custom-header-media, .twentyseventeen-front-page.has-header-video .custom-header-media, .home.blog.has-header-image .custom-header-media, .home.blog.has-header-video .custom-header-media {
     height: 40vh;
-}
+}*/
 
-.has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header {
+/*.has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header {
     height: 40vh;
-}
+}*/
 
 /*
  * Define design for the widgets:
  * - Recent Posts Extended    and
  * - RSS feeds
  */
-.widget ul li,
+/*.widget ul li,
 .widget ol li {
     border-bottom: none;
     border-top: 1px solid #ddd;
     padding: 0.5em 0;
-}
+}*/
 
-.sidebar-news h3.rpwe-title,
+/*.sidebar-news h3.rpwe-title,
 .widget_rss li .rsswidget {
     background: none !important;
     clear: none;
@@ -234,16 +234,16 @@ h1 {
     font-size: 16px !important;
     line-height: 1.5em;
     color: navy;
-}
+}*/
 
-.sidebar-news .rpwe-time {
+/*.sidebar-news .rpwe-time {
     color: #767676;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 1.8px;
     font-size: 10px;
-}
+}*/
 
-.widget-title a.rsswidget {
+/*.widget-title a.rsswidget {
     color: rgb(0, 115, 170);
-}
+}*/
