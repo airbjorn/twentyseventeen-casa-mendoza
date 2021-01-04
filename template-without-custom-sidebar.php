@@ -4,7 +4,7 @@
  *
  * Description: A custom template not showing Custom Sidebar at all
  *
- * @package Twenty Seventeen Child for dcb.org
+ * @package Twenty Seventeen Child for casa-mendoza.info
  */
 
 get_header(); ?>
