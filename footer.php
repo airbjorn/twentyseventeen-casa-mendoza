@@ -43,8 +43,6 @@
  				<div class="site-info">
     				Copyright &copy; <?php echo date('Y'); ?> by Sonja Zeyfang, casa-mendoza.info
  				</div><!-- .site-info -->
-				get_template_part( 'template-parts/footer/site', 'info' );
-				?>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
