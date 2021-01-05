@@ -39,7 +39,7 @@
 					<?php
 				endif;
 
-				// changed for dcb.org
+				// changed for casa-mendoza.info
 				//get_template_part( 'template-parts/footer/site', 'info' );?>
 				<p style="margin: 10px 0; text-align: right;">casa-mendoza.info by Sonja Zeyfang, powered by <a href="https://wordpress.org">WordPress</a></p>
 
