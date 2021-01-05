@@ -8,7 +8,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Seventeen
- * @since 1.0
+ * @since Twenty Seventeen 1.0
  * @version 1.2
  */
 
@@ -39,10 +39,12 @@
 					<?php
 				endif;
 
-				// changed for casa-mendoza.info
-				//get_template_part( 'template-parts/footer/site', 'info' );?>
-				<p style="margin: 10px 0; text-align: right;">casa-mendoza.info by Sonja Zeyfang, powered by <a href="https://wordpress.org">WordPress</a></p>
-
+				?>
+ 				<div class="site-info">
+    				Copyright &copy; <?php echo date('Y'); ?> by Sonja Zeyfang, casa-mendoza.info
+ 				</div><!-- .site-info -->
+				get_template_part( 'template-parts/footer/site', 'info' );
+				?>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
