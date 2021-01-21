@@ -30,7 +30,6 @@
 	<header id="masthead" class="site-header" role="banner">
 
 		<?php
-		/* show metaslider with id 486 instead of the static header image */
 		if ( is_front_page() ) {
 			echo do_shortcode( '[metaslider id=486]' );
 		        get_template_part( 'template-parts/header/site', 'branding' );
@@ -38,6 +37,7 @@
 			get_template_part( 'template-parts/header/header', 'image' );
 		}
 		?>
+
 
 		<?php if ( has_nav_menu( 'top' ) ) : ?>
 			<div class="navigation-top">
