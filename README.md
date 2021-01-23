@@ -1,4 +1,8 @@
 # twentyseventeen-casa-mendoza
-A wordpress child theme casa-mendoza.info, derived from the wp theme twenty seventeen.
+A wordpress child theme for casa-mendoza.info, derived from the wp theme twenty seventeen.
 
-Mainly created for displaying a slide show within the header
+- within the header, instead of a fix photo display metaslider show with id 486
+- semi-transparent background for showing header text in
+- don't capitalize header text
+- modify footer
+
